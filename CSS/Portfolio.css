@@ -1,0 +1,52 @@
+#Portfolio-Page {
+    margin: 0;
+    height: 1400px;
+    background: black; 
+    
+}
+
+.gradient-box {
+    width: 60%;
+    height: 1550px;
+    background: radial-gradient(circle at left, rgba(4, 245, 14, 0.2), rgba(0, 0, 0, 0.8));
+}
+
+#heading-Port, #heading-Work {
+    position: absolute;
+    color: white;
+    top: 560px;
+    right: 600px;
+    text-align: center;
+}
+
+.projects{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.project{
+    display: flex;
+    margin-top: 180px;
+    margin-left: 20%;
+    height: 200px;
+    object-fit: cover;
+    width: 900px;
+    
+}
+
+.project-text{
+    margin-left: 30px;
+    text-align:justify;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+
+
+.project img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+nav {
+    background-color: #000;
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+nav ul .brand {
+    margin-right: auto;
+}
+
+nav ul li a {
+    color: #04F50E;
+    text-align: center;
+    padding: 10px 3px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #03C20B;
+}
+
+

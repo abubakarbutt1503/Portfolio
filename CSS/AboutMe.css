@@ -1,0 +1,19 @@
+.AboutMe{
+    margin: 0;
+    padding: 0;
+    background-color: #131723;
+    color: white;
+}
+
+.AboutMe h1{
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.AboutMe p{
+    margin-left: 31% ;
+    width: 500px;
+    font-size: 13px;
+    text-align: center;
+}
